@@ -3,7 +3,7 @@ services:
         image: 'mysql:9'
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: friendevent
+            MYSQL_DATABASE: friendevent_backend-database-1
         ports:
             - '3306'
         volumes:
